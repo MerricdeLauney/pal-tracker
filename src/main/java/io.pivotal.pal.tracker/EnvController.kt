@@ -35,5 +35,7 @@ class EnvController constructor(@Value("\${PORT:NOT SET}") port: String,
         out.put("CF_INSTANCE_ADDR", cfInstanceAddr)
         return out
     }
+
+
 }
 
