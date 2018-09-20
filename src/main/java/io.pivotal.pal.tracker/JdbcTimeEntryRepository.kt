@@ -74,7 +74,7 @@ class JdbcTimeEntryRepository constructor(dataSource: DataSource) : TimeEntryRep
     }
 
 
-    private var extractor: ResultSetExtractor<TimeEntry> = ResultSetExtractor { resultSet ->
+    private var extractor: ResultSetExtractor<TimeEntry?> = ResultSetExtractor { resultSet ->
         if (resultSet.next()) mapper.mapRow(resultSet, 1); else null}
 
 }
