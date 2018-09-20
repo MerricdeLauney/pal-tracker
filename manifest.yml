@@ -5,4 +5,4 @@ applications:
   random-route: true
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry
-    SPRING_DATASOURCE_URL: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_c57de6f1a98d63c?user=bda4ecaabd0d71\u0026password=66fce73d
+    SPRING_DATASOURCE_URL: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_c57de6f1a98d63c?user=bda4ecaabd0d71&password=66fce73d
